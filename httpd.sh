@@ -5,5 +5,4 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 systemctl status httpd
 pwd
-
- `
+ls
