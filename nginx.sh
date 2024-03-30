@@ -1,10 +1,10 @@
 #! /bin/bash
  
-
-sudo yum install nginx -y
-sudo systemctl start nginx
-sudo systemctl enable nginx
-sudo systemctl status nginx
+sudo systemctl stop nginx
+sudo systemctl disable nginx
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl status httpd
 
 pwd
 
